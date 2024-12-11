@@ -1,0 +1,109 @@
+1. STATEMENT OF PURPOSE
+------------------------
+- The purpose of this document is to ensure quality and compliance with specific requirements, including Joomla development standards, coding guidelines, and industry best practices.  
+- It establishes a framework for clear collaboration and high-quality deliverables.
+
+2. REQUIREMENTS
+---------------
+2.1 Compliance with Standards:  
+- All development work must adhere to Joomla’s official coding standards and guidelines as outlined in:  
+  - Joomla Coding Standards (https://docs.joomla.org/Joomla_Coding_Standards)  
+  - Joomla Framework Documentation (https://joomla.github.io/coding-standards/)  
+- The use of Joomla’s native APIs, MVC structure, and language file support is mandatory for consistency and compatibility.
+
+2.2 Recommendations and Specifications:  
+- The project-specific work description and this document complement each other. In case of conflicting requirements, the following priority applies:  
+  1. Project-specific work description.  
+  2. This document, including linked references.  
+
+2.3 Code and Quality:  
+- Code must be well-structured, self-explanatory where possible, and follow Joomla's conventions.  
+- Unsupported or deprecated libraries and components should not be used unless explicitly approved.  
+- Third-party extensions or libraries must be vetted for quality, support, and compatibility with Joomla’s ecosystem.  
+
+3. DOCUMENTATION
+----------------
+
+3.1 Project Setup and Workflow  
+- The project owner (Emil Appelkvist) creates a private GitHub repository and invites the worker/developer/programmer to collaborate.  
+- All project files must be managed within the GitHub repository.  
+- Work should be committed and pushed to GitHub regularly, with clear and concise commit messages.  
+- A `development` branch will be used for ongoing work, while the `main` branch will contain the stable, production-ready code. Pull requests (PRs) must be used for merging any changes to the `main` branch.
+
+3.2 Branching and Commits  
+- The worker/developer/programmer should create feature branches for individual tasks and commit changes to those branches.  
+- All commits should follow the format:  
+  - A brief message describing the change.  
+  - Reference the related issue (e.g., "Fixes #123").  
+  - A detailed explanation if necessary (for complex changes).
+- Do not commit directly to the `main` or `development` branches.
+
+3.3 Pull Requests and Review  
+- Pull requests (PRs) are used to merge changes into the `main` branch. PRs should be reviewed by the project owner (Emil Appelkvist) for approval before merging.  
+- All changes must be well-documented, tested, and pass quality checks before being merged.
+
+3.4 Issue Tracking  
+- All bugs and issues must be documented in GitHub Issues.  
+- Each issue should have a clear description, steps to reproduce (if applicable), and be assigned to the appropriate developer.
+
+3.5 GitHub Guidelines  
+- Follow the GitHub Guides and best practices for branching, commits, and pull requests:  
+    - GitHub Flow: https://guides.github.com/introduction/flow/  
+    - GitHub Docs: https://docs.github.com/en/github
+
+To ensure all requirements are met, all work will be reviewed by a quality expert.
+
+____________________________________________________________________________________
+
+4. QUALITY ASSURANCE
+
+4.1 Testing:  
+- The worker/developer/programmer is responsible for creating and executing a test plan. All tests should be documented and automated where possible.  
+- Testing should cover functional, integration, and user acceptance tests.
+
+4.2 Bug Management:  
+- Bugs found during testing should be documented in GitHub Issues and assigned to the relevant developer for resolution.
+
+5. POINTS OF CONTACT
+--------------------
+- Communication must be in English or Swedish.  
+- Key questions and reporting should be logged in the issue management system.
+- General discussions may take place via Freelancer.com, Skype, or another agreed-upon platform.
+
+6. PAYMENTS
+-----------
+- Payments will be made according to the agreement.  
+- Work is subject to review, and payment will only be issued once the work has been approved. A quality expert may assist in the review.
+
+7. WARRANTY AND RESPONSIBILITY
+------------------------------
+- The developer guarantees a bug-free product.  
+- Any bugs or errors discovered within the warranty period (6 months) must be resolved at no additional cost.
+
+8. NON-DISCLOSURE AGREEMENT
+---------------------------
+- The developer must accept and adhere to the terms of a non-disclosure agreement (NDA) provided in a separate document or contract.
+
+9. OWNERSHIP
+------------
+- All intellectual property created as part of the project belongs solely to the client.  
+- All files must include the following metadata:
+
+/*
+* @version        x.X.X
+* @copyright      [Emil Appelkvist - Nyköping Sweden]
+* @owner          [Emil Appelkvist - Nyköping Sweden]
+* @author         [Developer Name, Company, and Email]
+* @license        Proprietary software
+*/
+
+10. TIME AND REPORTING
+----------------------
+10.1 Timeline:  
+- Project deadlines and milestones will be defined in the project-specific work description.
+
+10.2 Reporting:  
+- The developer must submit regular reports (e.g., every Tuesday and Friday), including:  
+  - Work completed since the last report.  
+  - Total hours spent on the project (if payment is hourly).  
+  - Questions requiring urgent answers.
