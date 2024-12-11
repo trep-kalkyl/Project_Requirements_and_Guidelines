@@ -21,6 +21,26 @@
 - Unsupported or deprecated libraries and components should not be used unless explicitly approved.  
 - Third-party extensions or libraries must be vetted for quality, support, and compatibility with Joomla’s ecosystem.
 
+2.4 Joomla Overrides
+- Use Joomla Overrides wherever possible to ensure system upgradeability and prevent losing customizations during Joomla updates.
+- Overrides should be placed in the `templates/[your-template]/html/` folder, not directly in the core or core components, to maintain Joomla's upgradeability.
+- When creating custom views (views) for components or modules, use Overrides rather than modifying the original component code.
+- Overrides should be well-documented with comments explaining why the change is needed, including any external libraries or customizations required.
+
+2.5 Compatibility and Upgrade-Friendliness
+- All customizations must be upgrade-friendly. Ensure any changes made to core files or components, which cannot be avoided, are well-documented and tested to avoid problems during future Joomla or third-party component updates.
+- In addition to Overrides, custom modules and components should be coded in a way that they can be easily updated or replaced without altering the core structure of Joomla.
+
+2.6 CSS and Styling Guidelines
+- All CSS should be written according to Joomla's best practices for styling and templates.
+- Custom styles should be placed in the template’s CSS files, not in core component or module files, to maintain flexibility during Joomla updates.
+- Ensure that CSS does not override Joomla's default styles unless absolutely necessary. Use more specific selectors to prevent conflicts.
+- Avoid using inline styles; instead, use external CSS files or style overrides in the template.
+
+2.7 File Structure for CSS and Media
+- Custom CSS should be added in the template’s `templates/[your-template]/css/` directory.
+- Media files such as images, fonts, or JavaScript libraries should be stored in appropriate directories (`images/`, `media/`, etc.) under the template folder, not in Joomla's core directories.
+
 3. DOCUMENTATION
 ----------------
 
