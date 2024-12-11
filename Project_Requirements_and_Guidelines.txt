@@ -7,8 +7,7 @@
 ---------------
 2.1 Compliance with Standards:  
 - All development work must adhere to Joomla’s official coding standards and guidelines as outlined in:  
-  - Joomla Coding Standards (https://docs.joomla.org/Joomla_Coding_Standards)  
-  - Joomla Framework Documentation (https://joomla.github.io/coding-standards/)  
+  - Joomla Coding Standards and Framework Documentation (https://developer.joomla.org/coding-standards/introduction.html)  
 - The use of Joomla’s native APIs, MVC structure, and language file support is mandatory for consistency and compatibility.
 
 2.2 Recommendations and Specifications:  
