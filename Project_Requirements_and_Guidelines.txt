@@ -1,6 +1,6 @@
 1. STATEMENT OF PURPOSE
 ------------------------
-- The purpose of this document is to ensure quality and compliance with specific requirements, including Joomla development standards, coding guidelines, and industry best practices.  
+- The purpose of this document is to ensure quality and compliance with specific requirements, including Joomla development standards, coding guidelines, and industry best practices.
 - It establishes a framework for clear collaboration and high-quality deliverables.
 
 2. REQUIREMENTS
@@ -14,12 +14,12 @@
 2.2 Recommendations and Specifications:  
 - The project-specific work description and this document complement each other. In case of conflicting requirements, the following priority applies:  
   1. Project-specific work description.  
-  2. This document, including linked references.  
+  2. This document, including linked references.
 
 2.3 Code and Quality:  
-- Code must be well-structured, self-explanatory where possible, and follow Joomla's conventions.  
+- Code must be well-structured, self-explanatory where possible (e.g., use meaningful variable names, functions, and comments to explain non-obvious logic).  
 - Unsupported or deprecated libraries and components should not be used unless explicitly approved.  
-- Third-party extensions or libraries must be vetted for quality, support, and compatibility with Joomla’s ecosystem.  
+- Third-party extensions or libraries must be vetted for quality, support, and compatibility with Joomla’s ecosystem.
 
 3. DOCUMENTATION
 ----------------
@@ -35,12 +35,12 @@
 - All commits should follow the format:  
   - A brief message describing the change.  
   - Reference the related issue (e.g., "Fixes #123").  
-  - A detailed explanation if necessary (for complex changes).
+  - A detailed explanation if necessary (for complex changes).  
 - Do not commit directly to the `main` or `development` branches.
 
 3.3 Pull Requests and Review  
 - Pull requests (PRs) are used to merge changes into the `main` branch. PRs should be reviewed by the project owner (Emil Appelkvist) for approval before merging.  
-- All changes must be well-documented, tested, and pass quality checks before being merged.
+- All changes must be well-documented, tested, and pass quality checks (including automated tests) before being merged.
 
 3.4 Issue Tracking  
 - All bugs and issues must be documented in GitHub Issues.  
@@ -52,8 +52,6 @@
     - GitHub Docs: https://docs.github.com/en/github
 
 To ensure all requirements are met, all work will be reviewed by a quality expert.
-
-____________________________________________________________________________________
 
 4. QUALITY ASSURANCE
 
@@ -91,19 +89,21 @@ ________________________________________________________________________________
 
 /*
 * @version        x.X.X
-* @copyright      [Emil Appelkvist - Nyköping Sweden]
-* @owner          [Emil Appelkvist - Nyköping Sweden]
-* @author         [Developer Name, Company, and Email]
+* @copyright      Emil Appelkvist, Nyköping, Sweden
+* @owner          Emil Appelkvist, Nyköping, Sweden
+* @author         [Developer Name], [Company], [Email]
 * @license        Proprietary software
 */
 
 10. TIME AND REPORTING
 ----------------------
 10.1 Timeline:  
-- Project deadlines and milestones will be defined in the project-specific work description.
+- Project deadlines and milestones will be defined in the project-specific work description.  
+- Delays must be communicated promptly, and new timelines agreed upon if needed.
 
 10.2 Reporting:  
 - The developer must submit regular reports (e.g., every Tuesday and Friday), including:  
   - Work completed since the last report.  
   - Total hours spent on the project (if payment is hourly).  
-  - Questions requiring urgent answers.
+  - Questions requiring urgent answers.  
+  - Next steps and any blockers.
