@@ -75,7 +75,7 @@ Document Project_Requirements_and_Guidelines.txt
 4. QUALITY ASSURANCE
 
 4.1 Testing:  
-- The worker/developer/programmer is responsible for creating and executing a test plan. All tests should be documented and automated where possible.  
+- The worker/developer/programmer is responsible for creating and executing a test plan, tailored to the project's size and complexity. All tests should be documented and automated where possible. 
 - Testing should cover functional, integration, and simulated user acceptance tests, where the latter involves replicating user interactions to ensure usability and expected behavior.
 
 4.2 Bug Management:  
