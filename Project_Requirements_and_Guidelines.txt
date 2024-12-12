@@ -13,32 +13,32 @@
 2.2 Recommendations and Specifications:  
 - The project-specific work description and this document complement each other. In case of conflicting requirements, the following priority applies:  
   1. Project-specific work description.  
-  2. This document, including linked references.
+  2. This document, including linked and attached references.
 
-2.3 Code and Quality:  
-- Code must be well-structured, self-explanatory where possible (e.g., use meaningful variable names, functions, and comments to explain non-obvious logic).  
+2.3 Code and Quality  
+- Code must be well-structured and self-explanatory wherever possible (e.g., use meaningful variable names, functions, and logical organization).  
+- Include clear and concise comments to explain non-obvious logic, algorithms, or complex sections of code. Comments should:  
+  - State the purpose of the code or logic.  
+  - Highlight any assumptions, dependencies, or edge cases.  
+  - Reference related files, overrides, or external libraries if applicable.  
 - Unsupported or deprecated libraries and components should not be used unless explicitly approved.  
-- Third-party extensions or libraries must be vetted for quality, support, and compatibility with Joomla’s ecosystem.
+- Third-party extensions or libraries must be vetted for quality, support, and compatibility with Joomla’s ecosystem.  
 
-2.4 Joomla Overrides
-- Use Joomla Overrides wherever possible to ensure system upgradeability and prevent losing customizations during Joomla updates.
-- Overrides should be placed in the `templates/[your-template]/html/` folder, not directly in the core or core components, to maintain Joomla's upgradeability.
-- When creating custom views (views) for components or modules, use Overrides rather than modifying the original component code.
-- Overrides should be well-documented with comments explaining why the change is needed, including any external libraries or customizations required.
+2.4 Joomla Overrides and Customizations  
+- Leverage Joomla's powerful override system for views, templates, and designs to maintain compatibility during updates.  
+- Place overrides in `templates/[your-template]/html/` rather than modifying core files or components.  
+- Use overrides for custom views and ensure changes are documented for clarity.  
 
-2.5 Compatibility and Upgrade-Friendliness
-- All customizations must be upgrade-friendly. Ensure any changes made to core files or components, which cannot be avoided, are well-documented and tested to avoid problems during future Joomla or third-party component updates.
-- In addition to Overrides, custom modules and components should be coded in a way that they can be easily updated or replaced without altering the core structure of Joomla.
+2.5 Upgrade-Friendliness  
+- Ensure all customizations, including modules and components, are upgrade-friendly and avoid altering Joomla's core structure.  
 
-2.6 CSS and Styling Guidelines
-- All CSS should be written according to Joomla's best practices for styling and templates.
-- Custom styles should be placed in the template’s CSS files, not in core component or module files, to maintain flexibility during Joomla updates.
-- Ensure that CSS does not override Joomla's default styles unless absolutely necessary. Use more specific selectors to prevent conflicts.
-- Avoid using inline styles; instead, use external CSS files or style overrides in the template.
+2.6 CSS and Styling  
+- Place custom CSS in `templates/[your-template]/css/` and avoid inline styles or direct modifications to Joomla’s core files.  
+- Maintain specificity in CSS selectors to prevent style conflicts while respecting Joomla’s default styles.  
 
-2.7 File Structure for CSS and Media
-- Custom CSS should be added in the template’s `templates/[your-template]/css/` directory.
-- Media files such as images, fonts, or JavaScript libraries should be stored in appropriate directories (`images/`, `media/`, etc.) under the template folder, not in Joomla's core directories.
+2.7 Media and File Organization  
+- Store media files (e.g., images, fonts, JavaScript) in the template folder’s appropriate directories (e.g., `images/`, `media/`).  
+- Avoid placing custom assets in Joomla's core directories to simplify maintenance and updates.
 
 3. DOCUMENTATION
 ----------------
@@ -70,8 +70,6 @@
     - GitHub Flow: https://guides.github.com/introduction/flow/  
     - GitHub Docs: https://docs.github.com/en/github
 
-To ensure all requirements are met, all work will be reviewed by a quality expert.
-
 4. QUALITY ASSURANCE
 
 4.1 Testing:  
@@ -97,14 +95,17 @@ To ensure all requirements are met, all work will be reviewed by a quality exper
 - The developer guarantees a bug-free product.  
 - Any bugs or errors discovered within the warranty period (6 months) must be resolved at no additional cost.
 
-8. NON-DISCLOSURE AGREEMENT
----------------------------
-- The developer must accept and adhere to the terms of a non-disclosure agreement (NDA) provided in a separate document or contract.
+8. NON-DISCLOSURE AGREEMENT (NDA)
+---------------------------------
+- All information, code, and assets shared during the project are strictly confidential and may not be shared, disclosed, or used outside the scope of this project without written consent from the client (Emil 
+  Appelkvist).  
+- The developer agrees to securely handle all data and ensure it is not accessible to unauthorized parties.  
+- This clause remains in effect indefinitely, even after project completion.
 
 9. OWNERSHIP
 ------------
 - All intellectual property created as part of the project belongs solely to the client.  
-- All files must include the following metadata:
+- All files created as part of the project must include the following metadata at the top of the file:
 
 /*
 * @version        x.X.X
