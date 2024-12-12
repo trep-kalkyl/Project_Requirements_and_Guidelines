@@ -1,3 +1,5 @@
+Document Project_Requirements_and_Guidelines.txt
+
 1. STATEMENT OF PURPOSE
 ------------------------
 - The purpose of this document is to ensure quality and compliance with specific requirements, including Joomla development standards, coding guidelines, and industry best practices.
