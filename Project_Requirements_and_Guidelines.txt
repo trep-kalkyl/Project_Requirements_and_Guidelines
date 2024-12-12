@@ -67,8 +67,8 @@
 
 3.5 GitHub Guidelines  
 - Follow the GitHub Guides and best practices for branching, commits, and pull requests:  
-    - GitHub Flow: https://guides.github.com/introduction/flow/  
-    - GitHub Docs: https://docs.github.com/en/github
+  - GitHub Flow: https://guides.github.com/introduction/flow/  
+  - GitHub Docs: https://docs.github.com/en/github
 
 4. QUALITY ASSURANCE
 
