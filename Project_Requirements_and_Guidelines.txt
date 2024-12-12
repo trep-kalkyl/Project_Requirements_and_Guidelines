@@ -23,8 +23,8 @@ Document Project_Requirements_and_Guidelines.txt
   - State the purpose of the code or logic.  
   - Highlight any assumptions, dependencies, or edge cases.  
   - Reference related files, overrides, or external libraries if applicable.  
-- Unsupported or deprecated libraries and components should not be used unless explicitly approved.  
-- Third-party extensions or libraries must be vetted for quality, support, and compatibility with Joomla’s ecosystem.  
+- Unsupported or deprecated libraries and components should only be used if explicitly approved by the project owner (Emil Appelkvist).
+- Third-party extensions or libraries must be carefully evaluated for quality, support, and compatibility with Joomla’s ecosystem, with final decisions made in agreement with the project owner (Emil Appelkvist).  
 
 2.4 Joomla Overrides and Customizations  
 - Leverage Joomla's powerful override system for views, templates, and designs to maintain compatibility during updates.  
@@ -76,7 +76,7 @@ Document Project_Requirements_and_Guidelines.txt
 
 4.1 Testing:  
 - The worker/developer/programmer is responsible for creating and executing a test plan. All tests should be documented and automated where possible.  
-- Testing should cover functional, integration, and user acceptance tests.
+- Testing should cover functional, integration, and simulated user acceptance tests, where the latter involves replicating user interactions to ensure usability and expected behavior.
 
 4.2 Bug Management:  
 - Bugs found during testing should be documented in GitHub Issues and assigned to the relevant developer for resolution.
@@ -95,7 +95,8 @@ Document Project_Requirements_and_Guidelines.txt
 7. WARRANTY AND RESPONSIBILITY
 ------------------------------
 - The developer guarantees a bug-free product.  
-- Any bugs or errors discovered within the warranty period (6 months) must be resolved at no additional cost.
+- Any bugs or errors caused by the worker/developer/programmer, discovered within the warranty period (2 months), must be resolved at no additional cost. This excludes issues arising from misuse, changes made by third 
+  parties, or updates to Joomla or third-party extensions outside the programmer's control.
 
 8. NON-DISCLOSURE AGREEMENT (NDA)
 ---------------------------------
