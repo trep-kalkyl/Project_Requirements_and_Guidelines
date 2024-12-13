@@ -1,9 +1,15 @@
 Document Project_Requirements_and_Guidelines.txt
 
-1. STATEMENT OF PURPOSE
-------------------------
-- The purpose of this document is to ensure quality and compliance with specific requirements, including Joomla development standards, coding guidelines, and industry best practices.
-- It establishes a framework for clear collaboration and high-quality deliverables.
+1. STATEMENT OF PURPOSE  
+------------------------  
+- The purpose of this document is to ensure quality and compliance with specific requirements, including Joomla development standards, coding guidelines, and industry best practices.  
+- It establishes a framework for clear collaboration and high-quality deliverables.  
+- For clarity, the following terms are used throughout this document:  
+  - Owner: Refers to Emil Appelkvist, the project owner and client.  
+  - Developer: Refers to the individual or team responsible for performing the agreed development work.
+  - Repository: Refers to the private GitHub repository created and managed by the Owner.  
+  - Project: Refers to the specific work scope and deliverables defined for the development task.  
+
 
 2. REQUIREMENTS
 ---------------
@@ -51,18 +57,18 @@ Document Project_Requirements_and_Guidelines.txt
 ----------------
 
 3.1 Project Setup and Workflow  
-- The project owner (Emil Appelkvist) creates a private GitHub repository and invites the worker/developer/programmer to collaborate.  
+- The project owner creates a private GitHub repository and invites the developer to collaborate.  
 - All project files must be managed within the GitHub repository.  
 - Work should be committed and pushed to GitHub regularly, with clear and concise commit messages.  
 - A `development` branch will be used for ongoing work, while the `main` branch will contain the stable, production-ready code. Pull requests (PRs) must be used for merging any changes to the `main` branch.
 
 3.2 Branching and Commits  
-- The worker/developer/programmer should create feature branches for individual tasks and commit changes to those branches.  
+- The developer should create feature branches for individual tasks and commit changes to those branches.  
 - All commits should follow the format:  
   - A brief message describing the change.  
   - Reference the related issue (e.g., "Fixes #123").  
   - A detailed explanation if necessary (for complex changes).  
-- Do not commit directly to the `main` or `development` branches.
+- Do not commit directly to the main or development branches. Instead, create a pull request to propose changes. These branches are protected to ensure that all changes are reviewed and approved before integration.
 
 3.3 Pull Requests and Review  
 - Pull requests (PRs) are used to merge changes into the `main` branch. PRs should be reviewed by the project owner (Emil Appelkvist) for approval before merging.  
@@ -80,7 +86,7 @@ Document Project_Requirements_and_Guidelines.txt
 4. QUALITY ASSURANCE
 
 4.1 Testing:  
-- The worker/developer/programmer is responsible for creating and executing a test plan, tailored to the project's size and complexity. All tests should be documented and automated where possible. 
+- The developer is responsible for creating and executing a test plan, tailored to the project's size and complexity. All tests should be documented and automated where possible. 
 - Testing should cover functional, integration, and simulated user acceptance tests, where the latter involves replicating user interactions to ensure usability and expected behavior.
 
 4.2 Bug Management:  
@@ -100,19 +106,18 @@ Document Project_Requirements_and_Guidelines.txt
 7. WARRANTY AND RESPONSIBILITY
 ------------------------------
 - The developer guarantees a bug-free product.  
-- Any bugs or errors caused by the worker/developer/programmer, discovered within the warranty period (2 months), must be resolved at no additional cost. This excludes issues arising from misuse, changes made by third 
-  parties, or updates to Joomla or third-party extensions outside the programmer's control.
+- Any bugs or errors caused by the developer, discovered within the warranty period (2 months), must be resolved at no additional cost. This excludes issues arising from misuse, changes made by third 
+  parties, or updates to Joomla or third-party extensions outside the developer's control.
 
 8. NON-DISCLOSURE AGREEMENT (NDA)
 ---------------------------------
-- All information, code, and assets shared during the project are strictly confidential and may not be shared, disclosed, or used outside the scope of this project without written consent from the client (Emil 
-  Appelkvist).  
+- All information, code, and assets shared during the project are strictly confidential and may not be shared, disclosed, or used outside the scope of this project without written consent from the owner.  
 - The developer agrees to securely handle all data and ensure it is not accessible to unauthorized parties.  
 - This clause remains in effect indefinitely, even after project completion.
 
 9. OWNERSHIP
 ------------
-- All intellectual property created as part of the project belongs solely to the client.  
+- All intellectual property created as part of the project belongs solely to the owner.  
 - All files created as part of the project must include the following metadata at the top of the file:
 
 /*
